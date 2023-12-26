@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="5dp" >
+
+    <ImageView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="328dp"
+        android:background="@drawable/ggwzz"
+        android:gravity="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:gravity="center_vertical">
+
+        <!-- 第一组 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border_background"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/id" />
+
+            <TextView
+                android:id="@+id/c_orderid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="id"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <!-- 第二组 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/c_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="游戏"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <!-- 第三组 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="101dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/major" />
+
+            <TextView
+                android:id="@+id/c_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="时间"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+        <!-- 第四组 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border_background"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="101dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/isbn2" />
+
+            <TextView
+                android:id="@+id/c_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="定位"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:id="@+id/lst_orders"
+        android:layout_width="match_parent"
+        android:layout_height="537dp">
+
+    </ListView>
+
+
+
+</LinearLayout>

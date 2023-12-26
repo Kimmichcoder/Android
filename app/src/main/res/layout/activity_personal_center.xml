@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="374dp"
+            android:layout_height="133dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="#ffffff"
+            android:drawablePadding="8dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:padding="10dp"
+            android:shadowColor="#33000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:text="Hacking Box,\nyour gaming partner!"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/tv_student_number"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:textStyle="italic"/>
+
+
+        <ImageView
+            android:layout_width="267dp"
+            android:layout_height="272dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/logo2" />
+
+
+        <Button
+            android:id="@+id/btn_user_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btn_selector"
+            android:text="个人信息"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="退出登陆"
+            android:layout_marginTop="50dp"
+            android:typeface="serif"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_selector"
+            android:textSize="20sp"
+            android:layout_margin="10dp"/>
+
+
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="返回主页"
+            android:layout_marginTop="50dp"
+            android:typeface="serif"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/btn_selector"
+            android:textSize="20sp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@drawable/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="ExtraText"
+        android:layout_marginBottom="10dp">
+
+        <!-- 标题 -->
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:gravity="center"
+            android:text="发布开黑内容"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:typeface="serif"
+            android:shadowColor="#33000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="3"
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawablePadding="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:lines="1"
+            android:layout_marginBottom="40dp"
+
+            />
+
+
+
+        <!-- 用户头像 -->
+        <ImageView
+            android:layout_width="218dp"
+            android:layout_height="215dp"
+            android:layout_gravity="center"
+            android:src="@drawable/usercre"
+            android:layout_marginBottom="40dp"/>
+
+        <!-- 游戏 ID 输入框 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:src="@drawable/id"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=" 游 戏 I D："
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_gameid"
+
+                android:focusable="false"
+                android:inputType="none"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:hint="请输入游戏 ID"
+                android:background="@drawable/editext_selector"
+                android:textSize="20sp"
+                android:textColor="#000000"
+
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="left|center"
+
+                android:maxLength="20"
+                android:padding="10dp"/>
+
+        </LinearLayout>
+
+        <!-- 游戏名称输入框 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:src="@drawable/id"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="游戏名称："
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+            <AutoCompleteTextView
+                android:id="@+id/autoCompleteTextView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/editext_selector"
+                android:completionThreshold="1"
+                android:hint="选择或输入文本"
+                android:inputType="none"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+        <!-- 游戏时间输入框 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:src="@drawable/id"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="游戏时间："
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_gametime"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:hint="请输入游戏时间"
+                android:focusable="false"
+                android:inputType="none"
+                android:onClick="showDatePickerDialog"
+                android:background="@drawable/editext_selector"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="left|center"
+                android:maxLength="20"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <!-- 游戏备注输入框 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="50dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="50dp"
+                android:src="@drawable/id"
+                android:layout_marginRight="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="玩家地址："
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#000000"/>
+
+            <EditText
+                android:id="@+id/et_gamenote"
+
+                android:focusable="false"
+                android:inputType="none"
+
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:hint="获取玩家地址"
+                android:background="@drawable/editext_selector"
+                android:textSize="20sp"
+                android:textColor="#000000"
+
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="left|center"
+
+                android:maxLength="20"
+                android:padding="10dp"/>
+        </LinearLayout>
+
+        <!-- 发布按钮 -->
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_selector"
+            android:gravity="center"
+            android:text="发布"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+</RelativeLayout>

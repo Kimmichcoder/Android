@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 当输入框处于焦点状态时，使用 shape_edit_focus 作为背景 -->
+    <item android:state_focused="true" android:drawable="@drawable/shape_edit_focus"/>
+    <!-- 默认状态下使用 shape_edit_normal 作为背景 -->
+    <item android:drawable="@drawable/shape_edit_normal"/>
+</selector>

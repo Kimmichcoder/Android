@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 当按钮被按下时，使用浅绿色 -->
+    <item android:state_pressed="true" android:drawable="@android:color/holo_blue_bright"/>
+
+    <!-- 当按钮没有被按下时，使用深绿色 -->
+    <item android:state_pressed="false" android:drawable="@android:color/holo_blue_bright"/>
+
+</selector>

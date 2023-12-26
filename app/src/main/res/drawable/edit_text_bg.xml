@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- 定义边框，宽度为3dp，颜色为黑色 -->
+    <stroke android:width="3dp" android:color="@color/black"/>
+
+    <!-- 定义圆角半径为10dp -->
+    <corners android:radius="10dp"/>
+
+</shape>

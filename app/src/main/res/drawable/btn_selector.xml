@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 当按钮被按下时，使用 shape_btn_pressed 资源 -->
+    <item android:state_pressed="true" android:drawable="@drawable/shape_btn_pressed"/>
+
+    <!-- 当按钮没有被按下时，使用 shape_btn_normal 资源 -->
+    <item android:drawable="@drawable/shape_btn_normal"/>
+
+</selector>

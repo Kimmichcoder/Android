@@ -1,0 +1,29 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/drawable/shape_btn_pressed.xml" value="0.229" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_add_games.xml" value="0.18659420289855072" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_back.xml" value="0.25" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_delete_games.xml" value="0.18659420289855072" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_main.xml" value="0.18659420289855072" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_my_ifactivity.xml" value="0.23278985507246377" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_personal_center.xml" value="0.23278985507246377" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_query_games.xml" value="0.18659420289855072" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_register.xml" value="0.18659420289855072" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_update_games.xml" value="0.18659420289855072" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_update_ifactivity.xml" value="0.23278985507246377" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/activity_welcome.xml" value="0.23278985507246377" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/layout/item_list.xml" value="0.18659420289855072" />
+        <entry key="..\:/data/project/MyExamProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.229" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
