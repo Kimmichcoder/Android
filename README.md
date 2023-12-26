@@ -1,6 +1,6 @@
-# 小黑盒陪玩android项目 :smile: 
+# 小黑盒陪玩android项目 
 
- **注意！！！
+ **注意！！！:smile: 
 "@Hack android development\gradle\wrapper\gradle-7.2-bin.zip"不存在！（体积太大了没上传，@是存放的路径，自己到官网下载）** 
 
 这是一个基于 Java 的陪玩应用程序，提供了一系列的功能和工具来支持用户进行陪玩活动。以下是项目的主要组件和功能。
@@ -21,47 +21,45 @@
 
 
 
-1. - 1. **Application ID:**
-1. -    - `com.example.myexamproject` 是应用程序的唯一标识符
-1. - 
-1. - 2. **Application ID Suffix:**
-1. -    - 这个配置项允许你在应用程序 ID 的末尾添加后缀
-1. - 
-1. - 3. **Version Code:**
-1. -    - `Version Code` 是用于在 Android 设备上唯一标识应用程序版本的数字
-1. - 
-1. - 4. **Version Name:**
-1. -    - `Version Name` 是用户可读的版本号，通常由开发者指定
-1. - 
-1. - 5. **Version Name Suffix:**
-1. -    - 这个配置项允许你在版本名称的末尾添加后缀
-1. - 
-1. - 6. **Target SDK Version:**
-1. -    - `Target SDK Version` 是指定应用程序编译和目标的 Android SDK 版本
-1. - 
-1. - 7. **Min SDK Version:**
-1. -    - `Min SDK Version` 指定应用程序可以运行的最低 Android 版本
-1. - 
-1. - 8. **ProGuard Files:**
-1. -    - 这是指定在构建过程中用于混淆和缩小代码的 ProGuard 文件的配置
-1. - 
-1. - 9. **Manifest Placeholders:**
-1. -    - 这个配置项允许你在 AndroidManifest.xml 文件中使用占位符
-1. - 
-1. - 10. **Multi Dex Enabled:**
-1. -     - 这个配置项指定是否启用 MultiDex 支持
-1. - 
-1. - 11. **Resource Configs:**
-1. -     - 这个配置项允许你指定应用程序支持的资源配置（例如语言、屏幕密度等）
-1. - 
-1. - 12. **Test Instrumentation Runner Class Name:**
-1. -     - 这个配置项指定用于运行 Android 测试的测试运行器的类名
-1. - 
 
+1. **Application ID:**
+   - `com.example.myexamproject` 是应用程序的唯一标识符
+
+2. **Application ID Suffix:**
+   - 这个配置项允许你在应用程序 ID 的末尾添加后缀
+
+3. **Version Code:**
+   - `Version Code` 是用于在 Android 设备上唯一标识应用程序版本的数字
+
+4. **Version Name:**
+   - `Version Name` 是用户可读的版本号，通常由开发者指定
+
+5. **Version Name Suffix:**
+   - 这个配置项允许你在版本名称的末尾添加后缀
+
+6. **Target SDK Version:**
+   - `Target SDK Version` 是指定应用程序编译和目标的 Android SDK 版本
+
+7. **Min SDK Version:**
+   - `Min SDK Version` 指定应用程序可以运行的最低 Android 版本
+
+8. **ProGuard Files:**
+   - 这是指定在构建过程中用于混淆和缩小代码的 ProGuard 文件的配置
+
+9. **Manifest Placeholders:**
+   - 这个配置项允许你在 AndroidManifest.xml 文件中使用占位符
+
+10. **Multi Dex Enabled:**
+    - 这个配置项指定是否启用 MultiDex 支持
+
+11. **Resource Configs:**
+    - 这个配置项允许你指定应用程序支持的资源配置（例如语言、屏幕密度等）
+
+12. **Test Instrumentation Runner Class Name:**
+    - 这个配置项指定用于运行 Android 测试的测试运行器的类名
 
 
 以上这些配置项可以在 `build.gradle` 文件中找到，通常是在应用程序模块的 `build.gradle` 文件中。在 Android Studio 中，你可以在 "Build Variants" 窗口中查看并修改这些配置。
-
 
 ### Utils
 - 提供了一些通用的工具类，用于处理常见任务和功能
